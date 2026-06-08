@@ -514,6 +514,29 @@ button {
   color: rgba(244, 248, 255, 0.8);
 }
 
+.platforms-skill-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(213, 228, 244, 0.15);
+}
+
+.skill-group h3 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: var(--blue);
+  margin-bottom: 6px;
+}
+
+.skill-group p {
+  font-size: 0.9rem;
+  color: rgba(244, 248, 255, 0.85);
+  line-height: 1.4;
+}
+
 .window-bar {
   display: grid;
   grid-template-columns: 1fr auto;
