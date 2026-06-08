@@ -17,4 +17,5 @@ Static portfolio website based on the reference screenshot and Saiprasad Sawant'
 - `assets/badges/*.svg` - custom certification badge images
 - `assets/Saiprasad_Sawant_Resume_June_2026.docx` - original resume download
 
+
 Open `index.html` in a browser to view the site.
