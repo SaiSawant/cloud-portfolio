@@ -1,0 +1,28 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7e3ed9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6b2ba8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Shield shape -->
+  <path d="M 100 20 L 160 50 L 160 110 Q 100 160 100 160 Q 100 160 40 110 L 40 50 Z" fill="url(#purpleGrad)" />
+  <!-- White inner shield -->
+  <path d="M 100 30 L 155 55 L 155 105 Q 100 150 100 150 Q 100 150 45 105 L 45 55 Z" fill="none" stroke="white" stroke-width="1.5" opacity="0.3" />
+  <!-- CERTIFIED text -->
+  <text x="100" y="75" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="1">CERTIFIED</text>
+  <!-- Purple icon -->
+  <circle cx="100" cy="105" r="8" fill="white" opacity="0.2" />
+  <text x="100" y="110" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle" font-weight="bold">AI</text>
+  <!-- Stars (4) -->
+  <g fill="white">
+    <!-- Star 1 -->
+    <polygon points="80,135 82,141 88.5,141 83.5,145 85.5,151 80,147 74.5,151 76.5,145 71.5,141 78,141" />
+    <!-- Star 2 -->
+    <polygon points="95,135 97,141 103.5,141 98.5,145 100.5,151 95,147 89.5,151 91.5,145 86.5,141 93,141" />
+    <!-- Star 3 -->
+    <polygon points="110,135 112,141 118.5,141 113.5,145 115.5,151 110,147 104.5,151 106.5,145 101.5,141 108,141" />
+    <!-- Star 4 -->
+    <polygon points="125,135 127,141 133.5,141 128.5,145 130.5,151 125,147 119.5,151 121.5,145 116.5,141 123,141" />
+  </g>
+</svg>
