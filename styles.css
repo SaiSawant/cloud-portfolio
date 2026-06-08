@@ -487,6 +487,33 @@ button {
   border-radius: 8px;
 }
 
+.platforms-info {
+  display: flex;
+  gap: 14px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(213, 228, 244, 0.15);
+}
+
+.platform-item {
+  flex: 1;
+  color: #f8fbff;
+}
+
+.platform-item strong {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--blue);
+  margin-bottom: 4px;
+}
+
+.platform-item span {
+  font-size: 0.9rem;
+  color: rgba(244, 248, 255, 0.8);
+}
+
 .window-bar {
   display: grid;
   grid-template-columns: 1fr auto;
